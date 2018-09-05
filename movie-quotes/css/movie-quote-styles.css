@@ -1,0 +1,39 @@
+p.quote {
+	font-family: monospace;
+	color:white;
+	margin-left: 40pt;
+	line-height: 20pt;
+	font-size: 15pt;
+}
+
+headline.action {
+	font-style:italic;
+	color:gray;
+}
+
+h1 {
+	color:green;
+	font-size:40pt;
+	font-weight:bold;
+	font-family: monospace;
+	margin-left: 40pt;
+	margin-bottom: 10pt;
+}
+
+h2 {
+	color:green;
+	margin-left: 40pt;
+	font-family: monospace;
+	font-size: 20pt;
+}
+
+headline.name {
+	color:green;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+body {
+	background-color: black
+}
+
