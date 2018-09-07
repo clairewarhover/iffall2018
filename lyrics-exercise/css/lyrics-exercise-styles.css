@@ -1,0 +1,45 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	background-image: url(https://i.stack.imgur.com/9gBkj.png);
+	background-repeat: no-repeat;
+	background-size: 1900px 2900px;
+	margin-bottom: 100pt;
+}
+
+h1 {
+	color: #95A9F1;
+	font-size: 250pt;
+	margin-top: 10pt;
+	margin-bottom: -30pt;
+}
+
+h2{
+	color: #95A9F1;
+	font-size: 20pt;
+	margin-top: 0pt;
+	margin-left: 180pt;
+	margin-bottom: 90pt;
+
+}
+
+h3{
+	color: #8EA0E2;
+	margin-top: 50pt;
+	margin-bottom: 30pt;
+	font-size: 20pt;
+
+}
+
+p {
+	color: #F8F3FF;
+	line-height: 20pt;
+	font-size: 12pt;
+}
+
+headline {
+	color: #899AD8;
+}
+
+
+
