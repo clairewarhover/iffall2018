@@ -3,16 +3,16 @@ body {
 	text-align: center;
 	background-image: url(https://i.stack.imgur.com/9gBkj.png);
 	background-repeat: no-repeat;
-	background-size: 1900px 2900px;
+	background-size: 1900px 4000px;
 	margin-bottom: 100pt;
 }
 
-h1 {
-	color: #95A9F1;
+h1{color: #95A9F1;
 	font-size: 250pt;
 	margin-top: 10pt;
 	margin-bottom: -30pt;
 }
+
 
 h2{
 	color: #95A9F1;
