@@ -1,0 +1,115 @@
+body{
+	margin-left:50px;
+	margin-top:40px;
+	margin-bottom: 50px;
+}
+headline {
+	font-size: 50pt;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+h3{
+	font-family: sans-serif;
+	color:gray;
+	margin-top: 0pt;
+	font-size: 25pt;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-family: sans-serif;
+	margin-top: 50pt;
+	color:gray;
+
+}
+
+h2 {
+	font-size:12pt;
+	font-family: sans-serif;
+	margin-bottom: -20pt;
+	margin-top: 30pt;
+	color:gray;
+}
+
+p {
+	font-size: 25pt;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+p.size200 {
+	font-weight: 200;
+}
+
+p.size400 {
+	font-weight: 400;
+}
+
+p.size600 {
+	font-weight: 600;
+}
+
+p.size800 {
+	font-weight: 800;
+}
+
+p.normalspacing{
+	letter-spacing: normal;
+
+}
+
+p.em3{
+	letter-spacing: .3em;
+
+}
+
+p.em6{
+	letter-spacing: -.06em;
+
+}
+
+p.none{
+	text-decoration: none;
+}
+
+p.underline{
+	text-decoration: underline;
+
+}
+
+p.line-through{
+	text-decoration: line-through;
+
+}
+
+p.nonetransform{
+	text-transform: none;
+}
+
+p.uppercase{
+	text-transform: uppercase;
+
+}
+
+p.lowercase{
+	text-transform: lowercase;
+
+}
+
+p.overline{
+	text-decoration:overline;
+}
+
+p.italic{
+	font-style: italic;
+
+}
+
+p.capitalize{
+	text-transform: capitalize;
+}
+
+
