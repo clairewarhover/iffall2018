@@ -1,0 +1,64 @@
+body {
+	font-family: 'Montserrat Alternates', sans-serif;
+	text-align: center;
+	background-image: url(https://i.stack.imgur.com/9gBkj.png);
+	background-repeat: no-repeat;
+	background-size: 4000px 3100px;
+	margin-bottom: 100pt;
+}
+
+h1{	
+	color: #95A9F1;
+	font-size: 270pt;
+	margin-top: 10pt;
+	margin-bottom: -30pt;
+	font-family: 'Montserrat Alternates', sans-serif;
+	line-height: 300pt;
+	font-weight: 800;
+}
+
+
+h2{
+	color: #95A9F1;
+	font-size: 25pt;
+	margin-top: 20pt;
+	margin-left: 240pt;
+	margin-bottom: 150pt;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 300;
+	letter-spacing: .2em;
+}
+
+h3{
+	color: #8EA0E2;
+	margin-top: 50pt;
+	margin-bottom: 30pt;
+	font-size: 25pt;
+	font-weight: 300;
+	letter-spacing: .2em;
+	background-image: url(https://qph.fs.quoracdn.net/main-qimg-f981e578fbabb5753d9001312fcbf49f.webp);
+	line-height: 60px;
+	width: 200px;
+	margin-left: auto;
+	margin-right:auto;
+
+}
+
+p {
+	color: #F8F3FF;
+	line-height: 22pt;
+	font-size: 14pt;
+	font-weight: 200;
+}
+
+headline {
+	color: #899AD8;
+}
+
+p.chorus {
+	font-weight: 500;
+
+}
+
+
+
