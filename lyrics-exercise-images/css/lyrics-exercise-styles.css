@@ -3,7 +3,7 @@ body {
 	text-align: center;
 	background-image: url(https://i.stack.imgur.com/9gBkj.png);
 	background-repeat: no-repeat;
-	background-size: 4000px 3100px;
+	background-size: 4000px 3500px;
 	margin-bottom: 100pt;
 }
 
@@ -58,6 +58,11 @@ headline {
 p.chorus {
 	font-weight: 500;
 
+}
+
+img {
+	margin-top: 75px;
+	width: 1000px;
 }
 
 
