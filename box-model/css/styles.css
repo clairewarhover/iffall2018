@@ -1,0 +1,162 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+header.one {
+	background-image: url("https://www.sanrio.com/media/W1siZiIsIjIwMTYvMDYvMTMvMjAvNDgvNTgvNDkwL2Vnb29kaWVzX1RTX3dhbGxwYXBlcjJfNS5qcGciXV0/egoodies-TS-wallpaper2-5.jpg?sha=f59e3891ab6bcef3");
+	height: 371px;
+	padding-top: 109px;
+
+}
+
+header h1.intro {
+	text-align: center;
+	font-size: 80px;
+	font-weight: 700;
+	margin-bottom: -11px;
+}
+
+header h2.subheading {
+	text-align: center;
+	font-size: 22.5pt;
+}
+
+
+
+
+
+section.one{
+	padding-top: 12px;
+	background-color: pink;
+	padding-bottom: 38px;
+}
+
+section.one p {
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 400;
+	
+}
+
+section.one img {
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	float: right;
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+
+div.inner_column {
+	width:960px;
+	margin: auto;
+}
+
+section.one h1.sectionone {
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 4px;
+}
+
+p.one{
+	margin-bottom:9px;
+}
+
+p.two{
+	 margin-bottom:-4px;
+}
+
+
+
+
+
+section.two img{
+	width:200px;
+	height:150px;
+	margin-bottom:21px;
+	margin-right: 12px;
+}
+
+div.inner_column_two {
+	width: 960px;
+	margin: auto;
+	column-count:2;
+	column-gap:0px;
+	padding-top:5px;
+}
+
+div.inner_column_two p{
+	font-size: 18px;
+	width:450px;
+	line-height:25px;
+	margin-top:-7px;
+}
+
+h1.sectiontwo {
+	text-align:center;
+	font-size: 40px;
+}
+
+
+div.inner_column_two div{
+	float:left;
+	display:inline-block;
+}
+
+h2.phototitle {
+	font-size:20px;
+	margin-top:2px;
+}
+
+section.two {
+	background-color:lavender;
+	padding-bottom:30px;
+	padding-top:10px;
+}
+
+
+
+
+h1.section3 {
+
+	text-align:center;
+	font-size: 40px;
+	padding-top:21px;
+}
+
+p.section3{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:720px;
+	font-size:26px;
+	line-height: 35px;
+	padding-top:4px;
+
+}
+
+section.three{
+	background-color:#9CF9D0;
+	padding-top:1px;
+	padding-bottom:72px;
+}
+
+
+
+footer p{
+	margin-left: 359px;
+	font-size: 18px;
+	margin-top:42px;
+}
+
+footer{
+	background-color:#FDFF7D;
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
