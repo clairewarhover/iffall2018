@@ -4,11 +4,12 @@ body {
 	color:#fbf7dc;
 	margin-bottom:30vw;
 	width:100vw;
+	margin-left:-1;
 }
 
 div.ingredients {
-	width: 30vw;
-	height: 30vw;
+	width: 35vw;
+	height: 35vw;
 	border: 3px solid rgba(0,0,0,.5);
 	display: inline-block;
 	margin-bottom:10px;
@@ -18,29 +19,29 @@ div.ingredients {
 }
 
 div.bothcolumns {
-	margin-right:15vw;
-	margin-left:15vw;
-	width:70vw;
+	margin-right:10vw;
+	margin-left:10vw;
+	width:80vw;
 }
 
 
 h2 {
 	margin-top: 10px;
 	text-align:center;
-	font-size:2.5vw;
+	font-size:3vw;
 	weight:400;
 	color:#fbf7dc;
 }
 
 div.innerbox {
-	width: 27vw;
-	height: 27vw;
+	width: 32vw;
+	height: 32vw;
 	background-color: rgba(0,0,0,.5);
 	display: inline-block;
-	margin-left:6px;
-	margin-right:6px;
-	margin-top:6px;
-	margin-top:6px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+	margin-top:5px;
 	position:absolute;
 
 }
@@ -66,28 +67,28 @@ h1 {
 }
 
 img.food {
-	width:21vw;
+	width:24vw;
 	margin-left:3vw;
 	margin-right:3vw;
 }
 
 img.cornsyrup {
-	width:15vw;
-	margin-left:5.5vw;
-	margin-right:5.5vw;
+	width:18vw;
+	margin-left:7vw;
+	margin-right:7vw;
 	margin-bottom:1vw;
 }
 
 img.violet {
-	width:18vw;
-	margin-left:4.5vw;
-	margin-right:4.5vw;
+	width:20vw;
+	margin-left:6vw;
+	margin-right:6vw;
 }
 
 img.bakingpowder {
-	width:10vw;
-	margin-left:8.5vw;
-	margin-right:8.5vw;
+	width:12vw;
+	margin-left:10vw;
+	margin-right:10vw;
 
 }
 
@@ -96,89 +97,89 @@ div div div img {
 }
 
 img.flour {
-	width:17vw;
+	width:21vw;
 	margin-top:6px;
 	margin-left:5vw;
 	margin-right:5vw;
 }
 
 img.sugar {
-	width:20vw;
+	width:24vw;
 	margin-left:3.5vw;
 	margin-right:3.5vw;
 }
 
-img.salt{
-	width:18vw;
-	margin-left:4.5vw;
-	margin-right:4.5vw;
+img.salt {
+	width:21vw;
+	margin-left:5vw;
+	margin-right:5vw;
 
 }
 
-img.eggs{
-	width:18vw;
+img.eggs {
+	width:23vw;
 	margin-left:3.5vw;
 	margin-right:3.5vw;
 
 }
 
 img.vegetableoil{
-	width:15vw;
-	margin-left:6vw;
-	margin-right:6vw;
+	width:18vw;
+	margin-left:7vw;
+	margin-right:7vw;
 
 }
 
 img.milk {
-	width:15vw;
-	margin-left:6vw;
-	margin-right:6vw;
+	width:18vw;
+	margin-left:7vw;
+	margin-right:7vw;
 
 }
 
 img.creamcheese{
-	width:16vw;
-	margin-left:5.5vw;
-	margin-right:5.5vw;
+	width:19vw;
+	margin-left:6.5vw;
+	margin-right:6.5vw;
 
 }
 
 img.goatbutter{
-	width:20vw;
-	margin-left:3.5vw;
-	margin-right:3.5vw;
+	width:24.5vw;
+	margin-left:3.75vw;
+	margin-right:3.75vw;
 
 }
 
 img.powderedsugar{
-	width:12vw;
+	width:14vw;
 	margin-left:7.5vw;
 	margin-right:7.5vw;
 
 }
 
 img.durianmeat{
-	width:20vw;
-	margin-left:3.5vw;
-	margin-right:3.5;
+	width:23vw;
+	margin-left:4.5vw;
+	margin-right:4.5;
 
 }
 
 h3 {
-	margin-left:14.5vw;
+	margin-left:12vw;
 	font-size: 6.5vw;
 	margin-bottom:1vw;
 	margin-top:15vw;
 }
 
 h4 {
-	margin-left:5vw;
+	margin-left:1vw;
 }
 
 li {
-	margin-left:8vw;
-	width:60vw;
-	padding-left:3vw;
+	margin-left:4vw;
+	width:70vw;
+	padding-left:1vw;
 }
 
 div.cakeimage img {
@@ -250,13 +251,13 @@ h5.goatbutter{
 }
 
 h5.powderedsugar{
-	margin-top:-1vw;
+	margin-top:-.5vw;
 	margin-left:1.5vw;
 	
 }
 
 h5.durianmeat{
-	margin-top:-1vw;
+	margin-top:-.5vw;
 	margin-left:1.5vw;
 	
 }
