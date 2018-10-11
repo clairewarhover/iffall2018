@@ -1,0 +1,272 @@
+body {
+	background-color:purple;
+	font-family: 'Vollkorn', serif;
+	color:#fbf7dc;
+	margin-bottom:30vw;
+}
+
+div.ingredients {
+	width: 30vw;
+	height: 30vw;
+	border: 3px solid rgba(0,0,0,.5);
+	display: inline-block;
+	margin-bottom:10px;
+	margin-left:5px;
+	margin-right:5px;
+	font-size:10px;
+}
+
+div.bothcolumns {
+	margin-right:15vw;
+	margin-left:15vw;
+	width:70vw;
+}
+
+
+h2 {
+	margin-top: 10px;
+	text-align:center;
+	font-size:2.5vw;
+	weight:400;
+	color:#fbf7dc;
+}
+
+div.innerbox {
+	width: 27vw;
+	height: 27vw;
+	background-color: rgba(0,0,0,.5);
+	display: inline-block;
+	margin-left:6px;
+	margin-right:6px;
+	margin-top:6px;
+	margin-top:6px;
+	position:absolute;
+
+}
+
+h5 {
+	position:relative;
+	font-size:3vw;
+}
+
+
+
+img.zeldalogo {
+	width:70vw;
+	margin-left:15vw;
+	margin-right:15vw;
+	margin-top:5vw;
+}
+
+h1 {
+	text-align:center;
+	font-size:42px;
+	margin-top:12px;
+}
+
+img.food {
+	width:21vw;
+	margin-left:3vw;
+	margin-right:3vw;
+}
+
+img.cornsyrup {
+	width:15vw;
+	margin-left:5.5vw;
+	margin-right:5.5vw;
+	margin-bottom:1vw;
+}
+
+img.violet {
+	width:18vw;
+	margin-left:4.5vw;
+	margin-right:4.5vw;
+}
+
+img.bakingpowder {
+	width:10vw;
+	margin-left:8.5vw;
+	margin-right:8.5vw;
+
+}
+
+div div div img {
+	margin-top:-1vw;
+}
+
+img.flour {
+	width:17vw;
+	margin-top:6px;
+	margin-left:5vw;
+	margin-right:5vw;
+}
+
+img.sugar {
+	width:20vw;
+	margin-left:3.5vw;
+	margin-right:3.5vw;
+}
+
+img.salt{
+	width:18vw;
+	margin-left:4.5vw;
+	margin-right:4.5vw;
+
+}
+
+img.eggs{
+	width:18vw;
+	margin-left:3.5vw;
+	margin-right:3.5vw;
+
+}
+
+img.vegetableoil{
+	width:15vw;
+	margin-left:6vw;
+	margin-right:6vw;
+
+}
+
+img.milk {
+	width:15vw;
+	margin-left:6vw;
+	margin-right:6vw;
+
+}
+
+img.creamcheese{
+	width:16vw;
+	margin-left:5.5vw;
+	margin-right:5.5vw;
+
+}
+
+img.goatbutter{
+	width:20vw;
+	margin-left:3.5vw;
+	margin-right:3.5vw;
+
+}
+
+img.powderedsugar{
+	width:12vw;
+	margin-left:7.5vw;
+	margin-right:7.5vw;
+
+}
+
+img.durianmeat{
+	width:20vw;
+	margin-left:3.5vw;
+	margin-right:3.5;
+
+}
+
+h3 {
+	margin-left:14.5vw;
+	font-size: 6.5vw;
+	margin-bottom:1vw;
+	margin-top:15vw;
+}
+
+h4 {
+	margin-left:5vw;
+}
+
+li {
+	margin-left:8vw;
+	width:60vw;
+	padding-left:3vw;
+}
+
+div.cakeimage img {
+	width:65vw;
+	margin-left:17.5vw;
+	margin-right:17.5vw;
+}
+
+h5.whitechocolate{
+	margin-top:-1vw;
+	margin-left:1.5vw;
+}
+
+h5.cornsyrup{
+	margin-top:-1vw;
+	margin-left:1.5vw;
+}
+
+h5.flour{
+	margin-top:-.5vw;
+	margin-left:1.5vw;
+}
+
+h5.bakingpowder{
+	margin-top:.5vw;
+	margin-left:1.5vw;
+}
+
+h5.sugar{
+	margin-top:3vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.salt{
+	margin-top:-3vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.eggs{
+	margin-top:1vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.vegetableoil{
+	margin-top:0vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.milk{
+	margin-top:-.5vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.creamcheese{
+	margin-top:-.5vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.goatbutter{
+	margin-top:2vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.powderedsugar{
+	margin-top:-1vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.durianmeat{
+	margin-top:-1vw;
+	margin-left:1.5vw;
+	
+}
+
+div.monstericon img {
+	margin-left:37vw;
+	margin-right:37vw;
+	margin-bottom: 8vw;
+	margin-top:-7vw;
+}
+
+
+
+
