@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'hylia_serif_betaregular';
+    src: url('hyliaserifbeta-regular-webfont.eot');
+    src: url('hyliaserifbeta-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('hyliaserifbeta-regular-webfont.woff2') format('woff2'),
+         url('hyliaserifbeta-regular-webfont.woff') format('woff'),
+         url('hyliaserifbeta-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+{"mode":"expert","formats":["ttf","woff","woff2","eot"],"tt_instructor":"default","fix_gasp":"xy","fix_vertical_metrics":"Y","metrics_ascent":"","metrics_descent":"","metrics_linegap":"","add_spaces":"Y","add_hyphens":"Y","fallback":"none","fallback_custom":"100","options_subset":"basic","subset_custom":"","subset_custom_range":"","subset_ot_features":"all","subset_ot_features_list":"","css_stylesheet":"stylesheet.css","filename_suffix":"-webfont","emsquare":"2048","spacing_adjustment":"0"}
+
+body {
+	background-image: url(file:///Users/clairewarhover/Desktop/Screen%20Shot%202018-10-19%20at%209.36.18%20PM.png);
+	background-size: 70%;
+	color:#fbf7dc;
+	margin-bottom:30vw;
+	width:100vw;
+	margin-left:-1;
+	font-family: 'Vollkorn', serif;, Arial, Helvetica, san-serif;
+	font-weight:normal;
+}
+
+div.ingredients {
+	width: 35vw;
+	height: 35vw;
+	border: 3px solid rgba(0,0,0,.5);
+	display: inline-block;
+	margin-bottom:10px;
+	margin-left:5px;
+	margin-right:5px;
+	font-size:10px;
+}
+
+div.bothcolumns {
+	margin-right:10vw;
+	margin-left:10vw;
+	width:80vw;
+}
+
+
+h2 {
+	margin-top: 10px;
+	text-align:center;
+	font-size:3.5vw;
+	font-weight:700;
+
+}
+
+div.innerbox {
+	width: 33vw;
+	height: 33vw;
+	background-color: rgba(0,0,0,.5);
+	display: inline-block;
+	position:absolute;
+	margin-left:1vw;
+	margin-right:1vw;
+	margin-top:1vw;
+	margin-bottom:1vw;
+
+}
+
+h5 {
+	position:relative;
+	font-size:4vw;
+	font-weight:400;
+	color:#bc9b53;
+}
+
+
+
+img.zeldalogo {
+	width:70vw;
+	margin-left:15vw;
+	margin-right:15vw;
+	margin-top:5vw;
+}
+
+h1 {
+	text-align:center;
+	font-size:42px;
+	margin-top:12px;
+	color:#f4c03c;
+	
+  
+}
+
+img.food {
+	width:24vw;
+	margin-left:3vw;
+	margin-right:3vw;
+}
+
+img.cornsyrup {
+	width:18vw;
+	margin-left:7vw;
+	margin-right:7vw;
+	margin-bottom:1vw;
+}
+
+img.violet {
+	width:20vw;
+	margin-left:6vw;
+	margin-right:6vw;
+}
+
+img.bakingpowder {
+	width:12vw;
+	margin-left:10vw;
+	margin-right:10vw;
+
+}
+
+div div div img {
+	margin-top:-1vw;
+}
+
+img.flour {
+	width:21vw;
+	margin-top:6px;
+	margin-left:5vw;
+	margin-right:5vw;
+}
+
+img.sugar {
+	width:24vw;
+	margin-left:3.5vw;
+	margin-right:3.5vw;
+}
+
+img.salt {
+	width:21vw;
+	margin-left:5vw;
+	margin-right:5vw;
+
+}
+
+img.eggs {
+	width:23vw;
+	margin-left:3.5vw;
+	margin-right:3.5vw;
+
+}
+
+img.vegetableoil{
+	width:18vw;
+	margin-left:7vw;
+	margin-right:7vw;
+
+}
+
+img.milk {
+	width:18vw;
+	margin-left:7vw;
+	margin-right:7vw;
+
+}
+
+img.creamcheese{
+	width:19vw;
+	margin-left:6.5vw;
+	margin-right:6.5vw;
+
+}
+
+img.goatbutter{
+	width:24.5vw;
+	margin-left:3.75vw;
+	margin-right:3.75vw;
+
+}
+
+img.powderedsugar{
+	width:14vw;
+	margin-left:7.5vw;
+	margin-right:7.5vw;
+
+}
+
+img.durianmeat{
+	width:23vw;
+	margin-left:4.5vw;
+	margin-right:4.5;
+
+}
+
+h3 {
+	margin-left:12vw;
+	font-size: 8.5vw;
+	margin-bottom:3vw;
+	margin-top:15vw;
+	color:#f4c03c;
+}
+
+h4 {
+	margin-left:1vw;
+	margin-top:10vw;
+	font-size:5vw;
+	margin-bottom:2vw;
+	color:#bc9b53;
+}
+
+li {
+	margin-left:4vw;
+	width:70vw;
+	padding-left:1vw;
+}
+
+div.cakeimage img {
+	width:65vw;
+	margin-left:17.5vw;
+	margin-right:17.5vw;
+}
+
+h5.whitechocolate{
+	margin-top:-1vw;
+	margin-left:1.5vw;
+}
+
+h5.cornsyrup{
+	margin-top:-1vw;
+	margin-left:1.5vw;
+}
+
+h5.flour{
+	margin-top:-.5vw;
+	margin-left:1.5vw;
+}
+
+h5.bakingpowder{
+	margin-top:.5vw;
+	margin-left:1.5vw;
+}
+
+h5.sugar{
+	margin-top:3vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.salt{
+	margin-top:-3vw;
+	margin-left:1.5vw;
+
+	
+}
+
+h5.eggs{
+	margin-top:1vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.vegetableoil{
+	margin-top:0vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.milk{
+	margin-top:-.5vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.creamcheese{
+	margin-top:-.5vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.goatbutter{
+	margin-top:2vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.powderedsugar{
+	margin-top:-.5vw;
+	margin-left:1.5vw;
+	
+}
+
+h5.durianmeat{
+	margin-top:-.5vw;
+	margin-left:1.5vw;
+	
+}
+
+div.monstericon img {
+	margin-left:37vw;
+	margin-right:37vw;
+	margin-bottom: 8vw;
+	margin-top:-7vw;
+}
+
+ol {
+	line-height: 7vw;
+}
+
+
+
