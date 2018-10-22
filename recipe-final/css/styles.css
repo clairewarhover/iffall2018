@@ -204,9 +204,12 @@ h3 {
 h4 {
 	margin-left:1vw;
 	margin-top:10vw;
-	font-size:5vw;
+	font-size:5.5vw;
 	margin-bottom:2vw;
 	color:#bc9b53;
+	font-family: "hylia_serif_betaregular";
+	font-weight: normal;
+	
 }
 
 li {
