@@ -310,5 +310,21 @@ ol {
 	line-height: 7vw;
 }
 
+footer {
+	font-size:3.5vw;
+	margin-left:15vw;
+	line-height:6vw;
+}
+
+a {
+	color:#fbf7dc;
+}
+
+h4.imagesources{
+	margin-top:20vw;
+	margin-left:12vw;
+}
+
+
 
 
