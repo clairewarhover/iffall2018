@@ -1,10 +1,26 @@
+@font-face {
+    font-family: 'hylia_serif_betaregular';
+    src: url('hyliaserifbeta-regular-webfont.eot');
+    src: url('hyliaserifbeta-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('hyliaserifbeta-regular-webfont.woff2') format('woff2'),
+         url('hyliaserifbeta-regular-webfont.woff') format('woff'),
+         url('hyliaserifbeta-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+{"mode":"expert","formats":["ttf","woff","woff2","eot"],"tt_instructor":"default","fix_gasp":"xy","fix_vertical_metrics":"Y","metrics_ascent":"","metrics_descent":"","metrics_linegap":"","add_spaces":"Y","add_hyphens":"Y","fallback":"none","fallback_custom":"100","options_subset":"basic","subset_custom":"","subset_custom_range":"","subset_ot_features":"all","subset_ot_features_list":"","css_stylesheet":"stylesheet.css","filename_suffix":"-webfont","emsquare":"2048","spacing_adjustment":"0"}
+
 body {
-	background-color:purple;
-	font-family: 'Vollkorn', serif;
+	
+	background-size: 70%;
 	color:#fbf7dc;
 	margin-bottom:30vw;
 	width:100vw;
 	margin-left:-1;
+	font-family: 'Vollkorn', serif;, Arial, Helvetica, san-serif;
+	font-weight:normal;
 }
 
 div.ingredients {
@@ -28,27 +44,29 @@ div.bothcolumns {
 h2 {
 	margin-top: 10px;
 	text-align:center;
-	font-size:3vw;
-	weight:400;
-	color:#fbf7dc;
+	font-size:3.5vw;
+	font-weight:700;
+
 }
 
 div.innerbox {
-	width: 32vw;
-	height: 32vw;
+	width: 33vw;
+	height: 33vw;
 	background-color: rgba(0,0,0,.5);
 	display: inline-block;
-	margin-left:5px;
-	margin-right:5px;
-	margin-top:5px;
-	margin-top:5px;
 	position:absolute;
+	margin-left:1vw;
+	margin-right:1vw;
+	margin-top:1vw;
+	margin-bottom:1vw;
 
 }
 
 h5 {
 	position:relative;
-	font-size:3vw;
+	font-size:4vw;
+	font-weight:400;
+	color:#bc9b53;
 }
 
 
@@ -64,6 +82,9 @@ h1 {
 	text-align:center;
 	font-size:42px;
 	margin-top:12px;
+	color:#f4c03c;
+	
+  
 }
 
 img.food {
@@ -167,13 +188,18 @@ img.durianmeat{
 
 h3 {
 	margin-left:12vw;
-	font-size: 6.5vw;
-	margin-bottom:1vw;
+	font-size: 8.5vw;
+	margin-bottom:3vw;
 	margin-top:15vw;
+	color:#f4c03c;
 }
 
 h4 {
 	margin-left:1vw;
+	margin-top:10vw;
+	font-size:5vw;
+	margin-bottom:2vw;
+	color:#bc9b53;
 }
 
 li {
@@ -217,6 +243,7 @@ h5.sugar{
 h5.salt{
 	margin-top:-3vw;
 	margin-left:1.5vw;
+
 	
 }
 
@@ -269,6 +296,9 @@ div.monstericon img {
 	margin-top:-7vw;
 }
 
+ol {
+	line-height: 7vw;
+}
 
 
 
