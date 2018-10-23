@@ -24,8 +24,8 @@ body {
 }
 
 div.ingredients {
-	width: 35vw;
-	height: 35vw;
+	width: 34vw;
+	height: 34vw;
 	border: 3px solid rgba(0,0,0,.5);
 	display: inline-block;
 	margin-bottom:10px;
@@ -52,8 +52,8 @@ h2 {
 }
 
 div.innerbox {
-	width: 33vw;
-	height: 33vw;
+	width: 32vw;
+	height: 32vw;
 	background-color: rgba(0,0,0,.5);
 	display: inline-block;
 	position:absolute;
