@@ -1,0 +1,666 @@
+a {
+        display: block; /* turn the inline element into a box */
+        position: fixed; /* position the anchor fixed to the viewport */
+        top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+        bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+        left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+        right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+        z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 40px;
+        color: pink;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        font-size: 40px;
+        color: pink;
+        padding-top:20vh;
+        padding-left:10vw;
+        width:52vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 30px;
+        padding-right: 35vw;
+        padding-bottom: 33vw;
+        color: pink;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 35px;
+        color: pink;
+        padding-bottom:39vh;
+        padding-right:35vw;
+        width:50vw;
+        font-family: 'Mali', cursive;
+    }
+}
+/**********
+pixel 2 XL
+**********/
+@media only screen and (min-device-width : 823px) and (max-device-width : 411px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: pink;
+        padding-bottom:50vh;
+        padding-right:35vw;
+        width:50vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+@media only screen and (min-device-width : 766px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 30px;
+        right: 20px;
+        font-size: 55px;
+        color: pink;
+        padding-bottom:40vh;
+        padding-right:40vw;
+        width:50vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    div.fionaquote {
+        font-size: 60px;
+        color: pink;
+        font-family: 'Mali', cursive;
+        margin-right:;
+        margin-bottom:;
+        width:40vw;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 764px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+   
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 40px;
+        color: pink;
+        padding-bottom:50vh;
+        padding-right:40vw;
+        width:50vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+   
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        color: pink;
+        padding-bottom:75vh;
+        padding-right:10vw;
+        width:70vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        font-size: 40px;
+        padding-right: 30vw;
+        padding-bottom: 50vh;
+        width:55vw;
+        color: pink;
+        font-family: 'Mali', cursive;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        padding-bottom: 70vh;
+        color: pink;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 40px;
+        padding-bottom: 33vw;
+        color: pink;
+        font-family: 'Mali', cursive;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 40px;
+        padding-bottom: 33vw;
+        color: pink;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+
+body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 30px;
+        padding-bottom: 45vh;
+        width:40vw;
+        padding-right: 40vw;
+        color: pink;
+        font-family: 'Mali', cursive;
+    }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 50px;
+        padding-bottom: 71vh;
+        color: pink;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* desktop thin */
+@media only screen and (min-device-width: 100px) and (max-device-height: 380px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    body {
+    background-image:  url("../images/fiona.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 90% 10%;
+    }
+    
+    div.fionaquote {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 30px;
+        padding-right: 40vw;
+        padding-bottom: 40vh;
+        width:40vw;
+        color: pink;
+        font-family: 'Mali', cursive;
+    }
+}
+
+
+

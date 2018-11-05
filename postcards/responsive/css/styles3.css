@@ -1,0 +1,605 @@
+a {
+        display: block; /* turn the inline element into a box */
+        position: fixed; /* position the anchor fixed to the viewport */
+        top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+        bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+        left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+        right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+        z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        bottom: 20px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:60vw;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 25px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:8vw;
+        padding-top:5vh;
+        width:63vw;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 30px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:60vw;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        color: #FFE8FF;
+        padding-left:30vw;
+        padding-top:10vh;
+        font-size:50px;
+        width:60vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 40px;
+        color: #FFE8FF;
+        padding-left:30vw;
+        padding-top:5vh;
+        width:50vw;
+        font-family: 'Mali', cursive;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:60vw;
+    }
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 25px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:8vw;
+        padding-top:5vh;
+        width:55vw;
+    }
+}
+/**********
+pixel 2 XL
+**********/
+@media only screen and (min-device-width : 823px) and (max-device-width : 411px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 30px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:60vw;
+    }
+}
+
+@media only screen and (min-device-width : 766px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 30% 70%;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 40px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:20vw;
+        padding-top:5vh;
+        width:60vw;
+        background-position: left;
+    }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        font-size: 35px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        width:45vw;
+        padding-left:15vw;
+        padding-top:6vh;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    div.bubblegumquote {
+        font-size: 50px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:60vw;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 50px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:60vw;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 766px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 40px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:8vw;
+        padding-top:5vh;
+        width:62vw;
+    }
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 37px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:8vw;
+        padding-top:5vh;
+        width:62vw;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 37px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:8vw;
+        padding-top:5vh;
+        width:62vw;
+    }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 25px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:8vw;
+        padding-bottom:3vh;
+        width:40vw;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+   
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 37px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:8vw;
+        padding-top:5vh;
+        width:62vw;
+    }
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 30px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:15vw;
+        padding-top:5vh;
+        width:50vw;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+       position: absolute;
+        font-size: 37px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:8vw;
+        padding-top:5vh;
+        width:62vw;
+    }
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 50px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:60vw;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 60% 40%;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 60px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:62vw;
+    }
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 50px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:60vw;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+   
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 60% 40%;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 60px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:62vw;
+    }
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 20px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:8vw;
+        padding-top:5vh;
+        width:50vw;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 37px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:8vw;
+        padding-top:5vh;
+        width:62vw;
+    }
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 40px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:60vw;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 40px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:60vw;
+    }
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+
+body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 30px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:50vw;
+        padding-top:5vh;
+        width:42vw;
+    }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 60% 40%;
+    }
+    
+    div.bubblegumquote {
+        position: absolute;
+        font-size: 50px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:30vw;
+        padding-top:10vh;
+        width:60vw;
+    }
+}
+
+/* desktop thin */
+@media only screen and (min-device-width: 100px) and (max-device-height: 380px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    body {
+    background-image:  url("../images/bubblegum.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    div.bubblegumquote {
+      position: absolute;
+        font-size: 25px;
+        color: #FFE8FF;
+        font-family: 'Mali', cursive;
+        padding-left:6vw;
+        padding-top:5vh;
+        width:45vw;
+}
+}
+
+
+
