@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Mali');
+@import url('https://fonts.googleapis.com/css?family=Mali:200,300,400,500,600,700');
 
 a {
         display: block; /* turn the inline element into a box */
@@ -469,7 +469,7 @@ pixel 2 XL
         right: 20px;
         font-size: 50px;
         color: pink;
-        padding-bottom:75vh;
+        padding-bottom:70vh;
         padding-right:10vw;
         width:70vw;
         font-family: 'Mali', cursive;

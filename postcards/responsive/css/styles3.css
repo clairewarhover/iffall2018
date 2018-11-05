@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Mali');
+@import url('https://fonts.googleapis.com/css?family=Mali:200,300,400,500,600,700');
 
 a {
         display: block; /* turn the inline element into a box */
@@ -259,13 +259,12 @@ pixel 2 XL
     }
     
     div.bubblegumquote {
-        position: absolute;
-        font-size: 40px;
+        font-size: 45px;
         color: #FFE8FF;
         font-family: 'Mali', cursive;
         padding-left:8vw;
-        padding-top:5vh;
-        width:62vw;
+        padding-bottom:5vh;
+        width:50vw;
     }
 }
 
