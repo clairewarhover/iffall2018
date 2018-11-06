@@ -270,12 +270,12 @@ pixel 2 XL
     
     div.finnquote {
         position: absolute;
-        font-size: 60px;
+        font-size: 50px;
         color: #F8E1C4;
         font-family: 'Mali', cursive;
-        padding-left:30vw;
-        padding-top:10vh;
-        width:62vw;
+        padding-left:20vw;
+        padding-bottom:80vh;
+        width:70vw;
     }
 }
 
@@ -356,7 +356,7 @@ pixel 2 XL
         color: #F8E1C4;
         font-family: 'Mali', cursive;
         padding-left:30vw;
-        padding-top:10vh;
+        padding-bottom:70vh;
         width:62vw;
     }
 }
@@ -519,7 +519,7 @@ pixel 2 XL
         color: #F8E1C4;
         font-family: 'Mali', cursive;
         padding-left:30vw;
-        padding-top:10vh;
+        padding-bottom:70vh;
         width:62vw;
     }
 }

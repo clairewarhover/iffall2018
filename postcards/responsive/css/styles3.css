@@ -202,10 +202,10 @@ pixel 2 XL
     }
     
     div.bubblegumquote {
-        font-size: 35px;
+        font-size: 40px;
         color: #FFE8FF;
         font-family: 'Mali', cursive;
-        width:45vw;
+        width:50vw;
         padding-left:15vw;
         padding-top:6vh;
     }
@@ -259,7 +259,7 @@ pixel 2 XL
     }
     
     div.bubblegumquote {
-        font-size: 45px;
+        font-size: 35px;
         color: #FFE8FF;
         font-family: 'Mali', cursive;
         padding-left:8vw;
@@ -298,12 +298,12 @@ pixel 2 XL
     
     div.bubblegumquote {
         position: absolute;
-        font-size: 37px;
+        font-size: 30px;
         color: #FFE8FF;
         font-family: 'Mali', cursive;
         padding-left:8vw;
         padding-top:5vh;
-        width:62vw;
+        width:50vw;
     }
 }
 
@@ -339,12 +339,12 @@ pixel 2 XL
     
     div.bubblegumquote {
         position: absolute;
-        font-size: 37px;
+        font-size: 30px;
         color: #FFE8FF;
         font-family: 'Mali', cursive;
         padding-left:8vw;
         padding-top:5vh;
-        width:62vw;
+        width:50vw;
     }
 }
 
@@ -359,10 +359,10 @@ pixel 2 XL
     
     div.bubblegumquote {
         position: absolute;
-        font-size: 30px;
+        font-size: 25px;
         color: #FFE8FF;
         font-family: 'Mali', cursive;
-        padding-left:15vw;
+        padding-left:10vw;
         padding-top:5vh;
         width:50vw;
 }
@@ -583,7 +583,7 @@ body {
     }
 }
 
-/* desktop thin */
+/* desktop thin 
 @media only screen and (min-device-width: 100px) and (max-device-height: 380px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
     body {
     background-image:  url("../images/bubblegum.png");
@@ -593,14 +593,14 @@ body {
     
     div.bubblegumquote {
       position: absolute;
-        font-size: 25px;
+        font-size: 20px;
         color: #FFE8FF;
         font-family: 'Mali', cursive;
         padding-left:6vw;
         padding-top:5vh;
         width:45vw;
-}
-}
+} 
+} */
 
 
 
