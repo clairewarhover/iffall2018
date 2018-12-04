@@ -1,0 +1,623 @@
+body {
+	background-color: #8394a9;
+	font-family: 'Muli', sans-serif;
+	margin:0; padding:0; box-sizing:border-box;
+}
+
+ul.navbar {
+    list-style-type: none;
+    background-color:#d4bdb9;
+    overflow: hidden;
+    padding-top:2vw;
+    padding-bottom:2vw;
+    margin:0 auto;
+    padding-right:0;
+}
+
+ul.navbar li {
+	display:inline;
+}
+
+h1 {
+	font-family: 'Muli', sans-serif;
+	color: #d4bdb9;
+	font-weight: 900;
+	text-align:center;
+	font-size:8vw;
+
+}
+
+img.homepage {
+	max-width: 50vw;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+img.middle {
+	max-width: 50vw;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:5vw;
+	margin-top:5vw;
+}
+
+
+
+ul.navbar li a {
+    color: #8394a9;
+    text-decoration: none;
+    font-size:2vw;
+    font-weight:700;
+    margin-left:4vw;
+
+}
+
+ul.navbar li a:hover {
+	color:white;
+}
+
+ul.navbar li.macmiller {
+	color:#8394a9;
+	text-decoration: none;
+    font-size:3vw;
+    font-weight:900;
+    margin-left: 1vw;
+    margin-right:1vw;
+}
+
+ul.navbar li.button {
+	margin-left:8vw;
+
+}
+
+ul.navbar li.button a#btn_spotify {
+				display: inline-block;
+				height: 5vw;
+				box-sizing: border-box;
+				border-radius: 3vw;
+				padding: 1vw 3vw 1vw 3vw;
+				background-color:  #8394a9;
+				border: 2px solid  #d4bdb9;
+				color: #fff;
+				font-size: 2vw;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: normal;
+				text-decoration: none;
+				margin-left:1vw;
+				margin-bottom:1vw;
+}
+
+ul.navbar li.button a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+h2 {
+	text-decoration: none;
+    font-size:2.2vw;
+    font-weight:700;
+    color: #d4bdb9;
+    margin-left:24.5vw;
+    margin-top:5vw;
+    clear:both;
+
+}
+
+h2.discography {
+	position: relative;
+    top: 60px;
+}
+
+
+p {
+	width: 50vw;
+	margin-left:24.5vw;
+	color:white;
+	font-size:18px;
+	line-height:23px;
+	af: 3vw;
+}
+
+#nav a.selected:link, a.selected:visited {
+	color:white;
+}
+
+ul.music {
+	color:white;
+	font-weight:800;
+	margin-left:23vw;
+	display: inline-block;
+	line-height: 30px;
+	float:left;
+	margin-bottom:60px;
+}
+
+h3 {
+	color:#d4bdb9;
+	margin-left:24.5vw;
+	font-weight:800;
+	margin-top:90px;
+	margin-bottom:-5px;
+}
+
+br {
+    display: block;
+    margin-bottom: 10vw;
+    font-size:10vw;
+    line-height: 10vw;
+}
+
+img.album{
+	max-width: 15vw;
+	margin-right:20vw;
+	display:inline-block;
+	margin-top:0vw;
+	margin-bottom:-1vw;
+
+}
+
+
+div.albums {
+	display:inline-block;
+	width:50vw;
+	float:left;
+
+}
+
+h4 {
+	position:relative;
+	margin-bottom:4vw;
+}
+
+div.blueslidepark{
+	float:right;
+	margin-top:2vw;
+	color:white;
+}
+
+div.swimming {
+	float:right;
+	margin-top:2vw;
+	color:white;
+}
+
+div.divinefeminine {
+	float:right;
+	margin-top:2vw;
+	color:white;
+}
+
+a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin-top: -3vw;
+				padding: 10px 40px 0 40px;
+				background-color:  #d4bdb9;
+				border: 2px solid  #d4bdb9;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: normal;
+				text-decoration: none;
+				margin-left:3vw;
+				margin-bottom:4vw;
+
+}
+
+a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+div.buttoncontainer {
+	display:block;
+	margin-top:0vw;
+}
+
+
+iframe {
+	margin-left:24.5vw;
+	width:50vw;
+	height:30vw;
+	margin-bottom:5vw;
+}
+
+h2.live {
+	margin-top:-10vw;
+	margin-bottom:4vw;
+	display:block;
+}
+
+footer {
+	margin-top:10vw;
+	background-color:#d4bdb9;
+	padding-top:2vw;
+	padding-left:20vw;
+	margin-left:0vw;
+	color:white;
+	font-weight:700;
+	height:375px;
+}
+
+ul.footer {
+	   list-style-type: none;
+	   line-height:1.5vw;
+}
+
+p.footer{
+	margin-top:20px;
+	margin-left:0vw;
+
+}
+
+h3.live {
+	margin-bottom:2vw;
+}
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px){
+
+
+section.discography {
+	margin-top:-20vw;
+}
+p{
+	font-size:4vw;
+	width:70vw;
+	margin-left:15vw;
+	margin-right:15vw;
+	line-height: 5vw;
+}
+
+h2 {
+	font-size:6vw;
+	margin-left:15vw;
+	width:70vw;
+	margin-top:15vw;
+}
+
+img {
+	min-width:70vw;
+	margin-bottom:15vw;
+}
+
+a#btn_spotify {
+	margin-top: 2vw;
+}
+
+ul.navbar li a {
+	font-size:3vw;
+	margin-right:-1vw;
+}
+
+ul.navbar li.macmiller {
+	margin-left:4vw;
+	margin-bottom:1vw;
+	font-size:4vw;
+	display:block;
+}
+
+p.footer{
+	margin-top:1vw;
+}
+
+footer {
+	margin-top:40vw;
+}
+
+
+div.blueslidepark{
+	float:none;
+	text-align:center;
+	margin: 0 auto;
+	margin-top:15vw;
+}
+
+div.swimming {
+	float:none;
+	text-align:center;
+	margin-top:15vw;
+}
+
+div.divinefeminine{
+	float:none;
+	text-align:center;
+	margin-top:15vw;
+}
+
+ul.music li {
+	width:70vw;
+	margin-left:-20vw;
+	font-size:4vw;
+}
+
+h3 {
+	margin-left:14.5vw;
+	font-size:4vw;
+	width:70vw;
+	margin-top:10vw;
+}
+
+img.album{
+	margin:0 auto;
+}
+
+h2.live {
+	margin-top:10vw;
+}
+
+iframe {
+	width:70vw;
+	margin:0 auto;
+	margin-left:15vw;
+	margin-bottom:10vw;
+	height: 40vw;
+}
+
+ul.music {
+	margin-left:30vw;
+}
+
+div.albums h3 {
+	margin-left:15vw;
+}
+
+p.footer {
+	font-size:3vw;
+	margin-top:5vw;
+	margin-bottom:0vw;
+	margin-left:-6vw;
+}
+ 
+ul.sources li{
+	font-size:3vw;
+}
+
+footer {
+	height:300px;
+}
+
+h1 {
+	font-size:12vw;
+
+}
+
+h2.discography {
+	margin-bottom:10vw;
+}
+
+li.button a.navbutton {
+	display:none;
+	visibility: hidden;
+}
+}
+
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+h1 {
+	font-size:12vw;
+}
+
+img {
+	min-width:70vw;
+}
+
+h2 {
+	font-size:5vw;
+	margin-left:15vw;
+	width:70vw;
+}
+
+p {
+	margin-left:15vw;
+	font-size:2.5vw;
+	width:70vw;
+	line-height:3vw;
+}
+div.blueslidepark{
+	float:none;
+	text-align:center;
+	margin: 0 auto;
+	margin-top:15vw;
+}
+
+div.swimming {
+	float:none;
+	text-align:center;
+	margin-top:15vw;
+}
+
+div.divinefeminine{
+	float:none;
+	text-align:center;
+	margin-top:15vw;
+}
+
+img.album {
+	margin-left:15vw;
+}
+
+h4 {
+	font-size:4vw;
+	margin-bottom:5vw;
+}
+h2.live {
+	margin-top:10vw;
+}
+
+h3 {
+	margin-left:15vw;
+	font-size:3vw;
+	width:50vw;
+	margin-top:10vw;
+}
+
+iframe{
+	width:70vw;
+	height:40vw;
+	margin-top:5vw;
+	margin-left:15vw;
+}
+ul.music li {
+	width:70vw;
+	margin-left:-5vw;
+	font-size:2.5vw;
+	line-height:5vw;
+}
+
+ul.navbar li a {
+	font-size:3vw;
+	margin-right:-1vw;
+}
+
+ul.navbar li.macmiller {
+	margin-left:4vw;
+	margin-bottom:1vw;
+	font-size:4vw;
+	display:block;
+}
+
+a#btn_spotify {
+	font-size:4vw;
+	padding-bottom:6vw;
+	border-radius: 40px;
+	margin-top:1vw;
+}
+
+ul.sources li{
+	font-size:2vw;
+}
+
+footer{
+	height:500px;
+}
+}
+
+
+/*
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+ul.navbar li.macmiller {
+    font-size:1 vw;
+    margin-left: 4vw;
+    display:block;
+}
+
+ul.navbar {
+    list-style-type: none;
+    background-color:#d4bdb9;
+    overflow: hidden;
+    padding-top:2vw;
+    padding-bottom:2vw;
+}
+ul.navbar li.nav a {
+    text-decoration: none;
+    font-size:11px;
+    font-weight:700;
+    margin-left:4vw;
+ 
+}
+
+p {
+	width: 70vw;
+	margin-left:15vw;
+	color:white;
+	font-size:18px;
+	line-height:23px;
+	af: 3vw;
+}
+h2 {
+	text-decoration: none;
+    font-size:2.2vw;
+    font-weight:700;
+    color: #d4bdb9;
+    margin-left:15vw;
+    margin-top:10vw;
+    display:block;
+    clear:both;
+}
+p {
+	width: 70vw;
+	margin-left:15vw;
+	color:white;
+	font-size:25px;
+	line-height:36px;
+	af: 3vw;
+}
+
+
+ul.navbar li.button {
+	margin-left:8vw;
+
+}
+
+ul.navbar li.button a#btn_spotify {
+				display: inline-block;
+				height: 5vw;
+				box-sizing: border-box;
+				border-radius: 3vw;
+				padding: 10px 40px 0 40px;
+				background-color:  #8394a9;
+				border: 2px solid  #d4bdb9;
+				color: #fff;
+				font-size: 2vw;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: normal;
+				text-decoration: none;
+				margin-left:-1vw;
+				margin-bottom:1vw;
+}
+
+}
+
+
+
+/*
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+
+
+ul.navbar {
+    list-style-type: none;
+    background-color:#d4bdb9;
+    overflow: hidden;
+    padding-top:2vw;
+    padding-bottom:2vw;
+}
+
+ul.navbar li {
+	display:inline;
+}
+
+ul.navbar li a {
+    color: #8394a9;
+    text-decoration: none;
+    font-size:2vw;
+    font-weight:700;
+    margin-left:4vw;
+
+}
+ul.navbar li.macmiller {
+    font-size:3vw;
+    margin-left: 4vw;
+    display:block;
+}
+}
